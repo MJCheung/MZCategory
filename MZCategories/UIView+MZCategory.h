@@ -117,7 +117,7 @@
 /** button的backgroundColor  */
 @property(nonatomic, copy) UIButton * (^mz_selectedBackgroundColor)(UIColor *);
 /** button的backgroundImg  */
-@property(nonatomic, copy) UIButton * (^mz_selectedlightBackgroundImg)(NSString *);
+@property(nonatomic, copy) UIButton * (^mz_selectedBackgroundImg)(NSString *);
 /** button的title  */
 @property(nonatomic, copy) UIButton * (^mz_selectedTitle)(NSString *);
 /** button的titleColor  */

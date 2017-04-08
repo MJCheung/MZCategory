@@ -459,7 +459,7 @@
 - (UIButton *(^)(NSString *))mz_selectedBackgroundImg {
     
     return ^(NSString * name) {
-        [self setBackgroundImage:[UIImage imageNamed:name] forState:UIControlStateSelected];
+        [self setImage:[UIImage imageNamed:name] forState:UIControlStateHighlighted];
         return self;
     };
 }
